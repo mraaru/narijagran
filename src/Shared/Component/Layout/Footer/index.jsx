@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css"
+import Logo from "../../../Image/logo.jpeg";
 
 
 function togglesubmenua() {
@@ -36,7 +37,7 @@ function End() {
       <div className="end">
         <div className="endtop">
           <a href="index.html">
-            <h1>Nari Jagran</h1>
+          <img src={Logo} alt=""/>
           </a>
           <div className="endcontacttop">
             <a href="./page/contact_us.html">Contact Us</a>|

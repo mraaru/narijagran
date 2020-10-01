@@ -8,12 +8,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 255, 242);
+  background-color: rgb(255, 255, 241);
 }
 body {
   max-width: 1500px;
   width: 100%;
-  background-color: rgb(252, 248, 241);
+  background-color: rgb(252, 255, 241);
 }
 * {
   box-sizing: border-box;

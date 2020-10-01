@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Logo from "../../../Image/LOGO.png"
+import Logo from "../../../Image/logo.jpeg";
 
 function togglesidebar() {
   document.getElementById("sidebar").classList.toggle("active");
