@@ -1,0 +1,39 @@
+.vkvkvk{
+  margin-top: 200px;
+}
+.jjjjj{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.each-slide{
+  height: 600px !important;
+}
+@media screen and (max-width: 700px) {
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px !important;
+  }
+
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .divHeight {
+    height: 300px;
+  }
+  .vkvkvk{
+    margin-top: 70px;
+  }
+  .vkvkvk h1{
+    font-size: 1.5rem;
+  }
+  .vkvkvk p{
+    display: none;
+  }
+}

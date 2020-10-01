@@ -1,0 +1,44 @@
+.tbtb{
+  position: absolute;
+  top: 0;
+  background-color: rgb(255,255,241);
+  height: 140px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+a{
+  color: black;
+}
+.top{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top p{
+  font-family: "ChomskyRegular";
+}
+
+.tbtb img{
+  width: 250px;
+}
+@media  screen and  (max-width:700px){
+  .tbtb{
+    height: 50px;
+    position: fixed;
+    top: 0%;
+  }
+.tbtb img{
+width: 150px;
+}
+  .top{
+    top: 10px;
+    position: absolute;
+  }
+  .top p{
+    display: none;
+
+  }
+}

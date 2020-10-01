@@ -1,0 +1,52 @@
+.articalbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.articalbox img {
+  width: 100%;
+}
+
+.boxartical {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.boxartical ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.boxartical ul li h1{
+    font-size: 1.7rem;
+}
+
+.boxartical ul li {
+  padding: 20px 0;
+}
+
+.boxartical ul li p {
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 700px) {
+    .boxartical {
+      width: 100%;
+    }
+   
+  }
+
+@media screen and (max-width: 550px) {
+
+    .articalbox{
+        margin-top: 0px;
+    }
+
+}

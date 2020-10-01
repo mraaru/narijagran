@@ -1,0 +1,226 @@
+.end {
+  display: flex;
+
+  border-top: 3px double #000000;
+  margin-top: 100px;
+  flex-direction: column;
+  padding: 50px;
+  margin: 0 20px;
+  margin-top: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.end a h1 {
+  font-weight: 50;
+  font-family: "ChomskyRegular";
+  color: #0f355c;
+  letter-spacing: 2px;
+  font-size: 3em;
+}
+.end a {
+  color: #000000;
+}
+.end h5 {
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
+.endbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.endbox ul a h3 {
+  font-family: "Cinzel", serif;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.endbox ul {
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 16%;
+  padding-top: 50px;
+}
+.endbox ul li {
+  line-height: 2em;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+.endbox ul li a:hover {
+  border-bottom: 0.5px solid #0f355c;
+  border-radius: 5px;
+}
+
+.endbox ul a {
+  border: none;
+}
+
+.endbox a {
+  margin-top: 40px;
+  padding: 0 10px;
+  border-right: 0.5px solid black;
+  font-size: 1em;
+}
+.endtop {
+  display: flex;
+  justify-content: space-between;
+}
+.endcontacttop {
+  display: flex;
+  align-items: center;
+}
+.endcontacttop a {
+  padding: 0 10px;
+}
+.conditionterm {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.75em;
+}
+.conditionterm a {
+  padding: 0 20px;
+}
+.endmenumobile {
+  display: none;
+  margin-top: 20px;
+}
+.endmenumobile ul {
+  background: transparent;
+}
+.endmenumobile ul li {
+  line-height: 30px;
+  border-bottom: none;
+  margin-left: 0;
+}
+.endmenumobile ul li a:hover {
+  background-color: transparent;
+  color: black;
+}
+#sidesubbar0 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar10 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar20 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar30 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar80 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar40 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar50 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar60 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar70 {
+  display: none;
+  margin: 0 0;
+}
+#sidesubbar0.show {
+  display: block;
+}
+#sidesubbar10.show {
+  display: block;
+}
+#sidesubbar20.show {
+  display: block;
+}
+#sidesubbar30.show {
+  display: block;
+}
+#sidesubbar40.show {
+  display: block;
+}
+#sidesubbar50.show {
+  display: block;
+}
+#sidesubbar60.show {
+  display: block;
+}
+#sidesubbar70.show {
+  display: block;
+}
+#sidesubbar80.showo {
+  display: block;
+}
+#sidebar.active {
+  top: 0;
+}
+@media screen and (max-width: 900px) {
+    .endbox ul {
+      display: none;
+    }
+    .endmenumobile {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .endbox a {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .endtop {
+      flex-direction: column;
+    }
+    .endcontacttop {
+      padding-top: 1rem;
+    }
+    .endcontacttop{
+      font-size: .7rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .conditionterm {
+      font-size: 0.8em;
+      padding: 0 3px;
+    }
+    .conditionterm a {
+      padding: 0 5px;
+      font-size: 0.75em;
+    }
+  
+    .end {
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .end h5 {
+      font-size: 0.75em;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .end a h1 {
+      font-size: 1.7em;
+    }
+    .conditionterm a {
+      font-size: 0.6em;
+    }
+    .end h5 {
+      font-size: 0.5em;
+    }
+  }
+  
