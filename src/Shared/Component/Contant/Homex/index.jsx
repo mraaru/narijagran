@@ -5,38 +5,35 @@ import Womenpoewr from "../../../Image/Women-Power.jpg";
 import Social from "../../../Image/pppp.jpg";
 import "./index.css";
 
-
 function Homex() {
   return (
     <>
       <div className="welcome">
         <ul>
           <li>
-            <h1>Conception</h1>
+            <h1>धारणा</h1>
             <br />
             <p>
-              We shall put forth our focus, as much as possible, on
-              women-centric issues and help in eliminating discrimination
-              against women by recognising, protecting and promoting their
-              rights, especially those in the marginalised sector. We intend to
-              create an environment which would lead to the fight against the
-              evil practices of our society and it's very own attitude that
-              fails to provide for mechanisms to offset or address sex or
-              gender-based disadvantages and limitations of women, as a result
-              of which women are denied or restricted in the recognition and
-              protection of their rights and their access to the enjoyment of
-              opportunities, benefits and privileges. We pledge to raise voice
-              as well as fight for the protection and security of women during
-              the current pandemic or any upcoming disaster, calamities and
-              other crises especially in all phases of relief, recovery,
-              rehabilitation including the state's review and would divulge
-              against the existing laws that are discriminatory to women. It
-              will always be our aim to promote harmony and equanimity among our
-              society and to interpret correctly the feelings of the individual
-              and to create confidence between all the sections of our society,
-              but when women-centric questions involve the interest of political
-              and social character we shall keep our columns open to any prudent
-              remarks and criticisms.
+              हम महिला केंद्रित मुद्दों पर अपना ध्यान केंद्रित करेंगे, जितना
+              संभव हो सके, अपने अधिकारों, विशेष रूप से सीमांत क्षेत्र में उन
+              लोगों को पहचानने, उनकी रक्षा करने और उन्हें बढ़ावा देकर महिलाओं के
+              साथ भेदभाव को समाप्त करने में मदद करेंगे। हम एक ऐसा वातावरण बनाने
+              का इरादा रखते हैं, जो हमारे समाज की बुरी प्रथाओं के खिलाफ लड़ाई का
+              नेतृत्व करे और यह बहुत ही अपना रवैया है, जो महिलाओं के यौन संबंधों
+              या लिंग-आधारित नुकसानों और सीमाओं को ऑफसेट करने या संबोधित करने
+              में विफल रहता है, जिसके परिणामस्वरूप महिलाओं को उनके अधिकारों की
+              मान्यता और संरक्षण और अवसरों, लाभों और विशेषाधिकारों के आनंद के
+              लिए उनकी पहुंच से वंचित या प्रतिबंधित किया जाता है। हम मौजूदा
+              महामारी या किसी भी आगामी आपदा के दौरान महिलाओं की सुरक्षा और
+              सुरक्षा के लिए आवाज उठाने के साथ-साथ लड़ने का संकल्प लेते हैं,
+              आपदाओं और अन्य संकटों में विशेष रूप से राहत, वसूली, पुनर्वास सहित
+              राज्य की समीक्षा और महिलाओं के लिए भेदभाव वाले मौजूदा कानूनों के
+              खिलाफ विभाजन होगा। यह हमेशा हमारा उद्देश्य होगा कि हम अपने समाज के
+              बीच सामंजस्य और समानता को बढ़ावा दें और व्यक्ति की भावनाओं की सही
+              व्याख्या करें और हमारे समाज के सभी वर्गों के बीच विश्वास पैदा
+              करें, लेकिन जब महिला केंद्रित प्रश्न राजनीतिक और सामाजिक चरित्र के
+              हित में शामिल होते हैं किसी भी विवेकपूर्ण टिप्पणी और आलोचना के लिए
+              हमारे कॉलम खुले रखें।
             </p>
           </li>
           <li>
@@ -53,17 +50,17 @@ function Homex() {
               <img src={Global} alt="" />
             </a>
           </li>
-          <br/>
+          <br />
           <li>
             <a href="/page">
-              <h1>Global Role</h1>
+              <h1>वैश्विक भूमिका </h1>
             </a>
             <br />
             <p>
-              Throughout history, the central role of women in society has
-              ensured the stability, progress and long-term development of
-              nations. Globally, women comprise 43 percent of the world’s
-              agricultural labor force – rising to 70 percent in some countries.
+              पूरे इतिहास में, समाज में महिलाओं की केंद्रीय भूमिका ने राष्ट्रों
+              की स्थिरता, प्रगति और दीर्घकालिक विकास सुनिश्चित किया है। विश्व
+              स्तर पर, महिलाओं में दुनिया की 43 प्रतिशत कृषि श्रम शक्ति शामिल है
+              - कुछ देशों में 70 प्रतिशत तक।
             </p>
           </li>
         </ul>
@@ -75,19 +72,19 @@ function Homex() {
               <img src={Persevering} alt="" />
             </a>
           </li>
-          <br/>
+          <br />
           <li>
             <a href="./page">
-              <h1>Persevering indian Women</h1>
+              <h1>दृढ़ता से भारतीय महिलाओं</h1>
             </a>
             <br />
             <p>
-              Indian women are the embodiment of the divinity not just because
-              females are also depicted as gods in our society but because of
-              their arduous nature and our acceptance to it by pushing them into
-              the daily household chores, it's a fact that cannot be denied by
-              our conventional society who thinks that it's their duty to
-              perform such tasks.
+              भारतीय महिलाएं न केवल देवत्व का अवतार हैं, क्योंकि हमारे समाज में
+              महिलाओं को देवताओं के रूप में भी चित्रित किया गया है, लेकिन उनके
+              कठोर स्वभाव के कारण और इसे दैनिक घरेलू कामों में धकेलने के लिए
+              हमारी स्वीकृति है, यह एक ऐसा तथ्य है जिसे हमारे पारंपरिक से इनकार
+              नहीं किया जा सकता समाज जो सोचता है कि ऐसे कार्य करना उनका कर्तव्य
+              है।
             </p>
           </li>
         </ul>
@@ -99,17 +96,17 @@ function Homex() {
               <img src={Womenpoewr} alt="" />
             </a>
           </li>
-          <br/>
+          <br />
           <li>
             <a href="/page">
-              <h1>Two steps at a time</h1>
+              <h1>एक बार में दो कदम</h1>
 
               <br />
               <p>
-                Throughout history, we survive together by cooperation and now
-                is the time to repeat history and change the world into a better
-                place for us. After all, progress is real and useful only when
-                we all move ahead at the same time.
+                पूरे इतिहास में, हम सहयोग से एक साथ जीवित रहते हैं और अब इतिहास
+                को दोहराने और दुनिया को हमारे लिए एक बेहतर जगह में बदलने का समय
+                है। आखिरकार, प्रगति वास्तविक और उपयोगी है जब हम सभी एक ही समय
+                में आगे बढ़ते हैं।
               </p>
             </a>
           </li>
@@ -122,17 +119,18 @@ function Homex() {
               <img src={Social} alt="" />
             </a>
           </li>
-          <br/>
+          <br />
           <li>
             <a href="/page">
-              <h1>Social Appurtenance</h1>
+              <h1>सामाजिक मूल्यांकन</h1>
             </a>
             <br />
             <p>
-              Two thirds believe that women won’t achieve equality in their
-              country unless men take actions to support women’s rights too.
-              However, opinion is split on whether too much is being expected of
-              men to help the fight for equality.
+              दो तिहाई लोगों का मानना ​​है कि महिलाएं अपने देश में तब तक समानता
+              हासिल नहीं करेंगी जब तक पुरुष महिलाओं के अधिकारों का समर्थन करने
+              के लिए कार्रवाई नहीं करेंगे। हालांकि, राय इस बात पर विभाजित है कि
+              क्या समानता की लड़ाई में मदद के लिए पुरुषों से बहुत अधिक उम्मीद की
+              जा रही है।
             </p>
           </li>
         </ul>

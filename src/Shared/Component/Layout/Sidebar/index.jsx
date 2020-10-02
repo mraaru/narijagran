@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
+import Logo from "../../../Image/logo.jpeg";
+
+
 
 function togglesidebar() {
   document.getElementById("sidebar").classList.toggle("active");
@@ -45,9 +48,9 @@ const Sidebar = () => {
               <span className="jan aman"></span>
             </div>
             <div className="logosidebar">
-              <h1>
-                <Link to="/">Nari Jagran</Link>
-              </h1>
+            
+                <Link to="/"><img src={Logo} alt=""/></Link>
+              
             </div>
           </div>
           <br />

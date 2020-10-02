@@ -20,7 +20,7 @@
 .mpp {
   position: fixed;
   width: 100%;
-  background-color: rgb(252, 248, 241);
+  background-color: rgb(252, 255, 241);
   box-shadow: 0 0 10px 0 black;
   height: 100px;
   max-width: 1500px;
@@ -32,10 +32,11 @@
   align-items: center;
   justify-content: center;
 }
-#sidebar h1 {
-  font-family: "ChomskyRegular";
-  font-size: 2rem;
-  font-weight: 100;
+#sidebar img {
+  width: 170px;
+  
+  
+
 }
 .sidebarlogoline {
   width: 100%;
@@ -46,7 +47,7 @@
   left: 40%;
 }
 nav ul {
-  background-color: rgb(252, 248, 241);
+  background-color: rgb(252, 255, 241);
 
   margin-top: 80px;
   margin-bottom: 100px;
@@ -165,6 +166,9 @@ nav ul ul li a {
 }
 #sidebar.active {
   top: 0;
+}
+#slidebar.active button{
+  display: none;
 }
 
 @media screen and (max-width: 550px) {
