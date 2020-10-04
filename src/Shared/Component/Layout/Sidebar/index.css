@@ -167,7 +167,7 @@ nav ul ul li a {
 #sidebar.active {
   top: 0;
 }
-#slidebar.active button{
+#slidebar.active .each-slide {
   display: none;
 }
 

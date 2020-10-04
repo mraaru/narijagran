@@ -3,16 +3,20 @@ import Top from "../../Shared/Component/Layout/Top";
 import Footer from "../../Shared/Component/Layout/Footer";
 import Sidebar from "../../Shared/Component/Layout/Sidebar";
 import Menu from "../../Shared/Component/Layout/Menu";
-import Homex from "../../Shared/Component/Contant/Homex"
+import Homex from "../../Shared/Component/Contant/Homex";
 import Newsx from "../../Shared/Component/Contant/News/Newsx";
-import Sliderr from "../../Shared/Component/Layout/Slider"
-import Loader from "../../Shared/Component/Layout/Loader"
+import Sliderr from "../../Shared/Component/Layout/Slider";
+import Loader from "../../Shared/Component/Layout/Loader";
+import Somearticle from "../../Shared/Component/Contant/Somearticle"
+
+
 const Home = () => {
   return (
     <>
       <Sliderr />
       <Homex />
       <Newsx />
+      <Somearticle />
       <Menu />
       <Footer />
       <Top />
